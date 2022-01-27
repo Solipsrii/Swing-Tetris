@@ -185,13 +185,7 @@ public class Manager {
             }
         }
 
-        for (int y = MAX_GAME_Y-2; y > MAX_GAME_Y-5; y--) {
-            for (int x = 1; x < MAX_GAME_X-1; x++) {
-                well[y][x].color = Color.RED;
 
-            }
-        }
-        well[17][1].color = Color.BLUE;
         GameData.well = well;
         //initialize end
     }
@@ -381,6 +375,7 @@ public class Manager {
     }
 
     private void clearLines(){
+        //check if lines can be clear. scan from bottom -> up. scans horizontally from right to left.
         GameData.linesToDrop = 0; int yStart=-1;
         int maxY = Math.max(currentPiece.getActualYLocation(0), currentPiece.getActualYLocation(3));
         maxY = Math.max(maxY, currentPiece.getActualYLocation(2));
@@ -394,12 +389,13 @@ public class Manager {
                     if(yStart==-1)
                         yStart=y;
                     GameData.linesToDrop++;
-                    new LineClearedSequence(y); //auto subscribes to the animationDispatcher
+                    new LineClearedSequence(y); //auto subscribes to the animationDispatcher, animate current y-line to break apart
                     eventManager.eventStart(EventType.LINE_CLEARED);
                     clearLine(y);
                 }
             }
         }
+
         if (yStart != -1){
             Color[][] colorArray = new Color[yStart - GameData.linesToDrop+1][MAX_GAME_X-1];
             for(int i= (yStart-GameData.linesToDrop); i > 0; i--)
