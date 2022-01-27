@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>Q:\apps\IntelliJ IDEA Community Edition 2020.1.2\Projects\NewTetris\out\artifacts\NewTetris\NewTetris.jar</jar>
+  <outfile>Q:\Java Game\Basic Tetris.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>Q:\apps\IntelliJ IDEA Community Edition 2020.1.2\Projects\NewTetris\src\assets\Art\NewTetris.ico</icon>
+  <singleInstance>
+    <mutexName>TetrisGame</mutexName>
+    <windowTitle>Just a basic Tetris game</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0_111</minVersion>
+    <maxVersion>17.0.2</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>

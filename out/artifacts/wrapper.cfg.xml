@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>Q:\apps\IntelliJ IDEA Community Edition 2020.1.2\Projects\NewTetris\out\artifacts\NewTetris_jar\NewTetris.jar</jar>
+  <outfile>Q:\Basic Tetris.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.oracle.com/java/technologies/downloads/#jdk17-windows</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest>Q:\apps\IntelliJ IDEA Community Edition 2020.1.2\Projects\NewTetris\out\artifacts\META-INF\MANIFEST.MF</manifest>
+  <icon>Q:\apps\IntelliJ IDEA Community Edition 2020.1.2\Projects\NewTetris\src\assets\Art\NewTetris.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
