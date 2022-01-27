@@ -3,7 +3,9 @@ Versus the single-class solution, this projects gets updated with a woefully mad
 
 Movement keys are:
 left / Right keys -> movement
+
 Up / Down keys    -> rotation
+
 Space             -> drop piece faster
  
 ![me](https://i.imgur.com/BbAHof8.gif)
