@@ -53,6 +53,7 @@ public class Manager {
     private ArrayList<GameObject> itemQueue;
     private ArrayList<GameObject> bufferQueue;
     public Score score;
+    int xxx;
 
     private AutoDropper autoDropper;
     //panels

@@ -3,8 +3,7 @@ package assets;
 import java.awt.*;
 
 public class Block {
-    public Point
-            templatePoint;
+    public Point templatePoint;
     public Color color; private Color hideColor;
     public boolean isHidden = false;
 
